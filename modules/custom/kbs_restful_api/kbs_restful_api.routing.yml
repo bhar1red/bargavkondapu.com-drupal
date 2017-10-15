@@ -1,0 +1,17 @@
+# Test API endpoints
+
+kbs_restful_api.projects.get:
+  path: 'api/v1/projects'
+  defaults: { _controller: '\Drupal\kbs_restful_api\Controller\KBSRestfulAPIController::get_projects' }
+  methods:  [GET]
+  requirements:
+    _access: 'TRUE'
+
+# Test API endpoints
+
+kbs_restful_api.posts.get:
+  path: 'api/v1/posts'
+  defaults: { _controller: '\Drupal\kbs_restful_api\Controller\KBSRestfulAPIController::get_posts' }
+  methods:  [GET]
+  requirements:
+    _access: 'TRUE'

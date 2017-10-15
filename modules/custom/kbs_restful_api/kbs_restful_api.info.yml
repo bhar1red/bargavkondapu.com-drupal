@@ -1,0 +1,6 @@
+name: Restful API Module
+description: Restful API for content types. Projects, Posts
+package: Custom
+
+type: module
+core: 8.x
